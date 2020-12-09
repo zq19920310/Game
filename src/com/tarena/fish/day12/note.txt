@@ -1,0 +1,10 @@
+tanA = (mx-xx)/(my-yy)
+A = Math.atan((mx-xx)/(my-yy))
+gd.rotate(A,xx,yy);
+一、实现大炮的旋转
+1.在画布类中定义两个全局变量mouseX,mouseY
+(用来保存鼠标光标的坐标)
+2、在窗体上添加鼠标事件，获取鼠标光标的坐标，并赋值给
+1中的两个变量。
+
+	
